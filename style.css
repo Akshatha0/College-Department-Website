@@ -1,0 +1,85 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+}
+
+
+
+.hero {
+
+    background: linear-gradient(
+        120deg,
+        #007bff,
+        #00c6ff
+    );
+
+    color:white;
+
+    padding:100px 20px;
+
+}
+
+
+
+.hero h1 {
+
+    font-size:45px;
+
+}
+
+
+
+.card {
+
+    margin-bottom:20px;
+
+    transition:0.3s;
+
+}
+
+
+
+.card:hover {
+
+    transform:translateY(-10px);
+
+}
+
+
+
+.card img {
+
+    height:250px;
+
+    object-fit:cover;
+
+}
+
+
+
+.list-group-item {
+
+    font-size:18px;
+
+}
+
+
+
+footer {
+
+    margin-top:30px;
+
+}
+
+
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:30px;
+
+}
+
+}
